@@ -1,0 +1,132 @@
+body {
+background-image: url(https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?w=1060&t=st=1672519459~exp=1672520059~hmac=0218529539c9d25eff4698911b8bd1cbc75e3ead908434933706bf2b8b7d0443);
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+}
+
+#IDLIST1 {
+    
+    font-family: 'Inconsolata';
+}
+
+#IDLIST2 {
+    
+    font-family: 'Inconsolata';
+}
+
+#IDLIST3 {
+  
+    font-family: 'Inconsolata';
+}
+
+#IDLIST4 {
+  
+    font-family: 'Inconsolata';
+}
+
+.list {
+    margin: 14px;
+    padding: 11px;
+    display: inline-block;
+}
+
+#IDLIST1:hover {
+    border-radius: 10px;
+    background-color: rgb(189, 66, 66);
+    transition: 0.25s;
+}
+
+#IDLIST2:hover {
+    border-radius: 10px;
+    background-color: rgb(189, 66, 66);
+    transition: 0.25s;
+}
+
+#IDLIST3:hover {
+    border-radius: 10px;
+    background-color: rgb(189, 66, 66);
+    transition: 0.25s;
+}
+
+#IDLIST4:hover {
+    border-radius: 10px;
+    background-color: rgb(189, 66, 66);
+    transition: 0.25s;
+}
+
+#container1 {
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(rgb(189, 66, 66), black);
+    height: 370px;
+    width: 340px;
+    right: 34px;
+    top: 110px;
+    border-radius: 20px;
+    border: 1px solid rgb(189, 66, 66);
+}
+
+.loginform {
+    margin: -5px;
+    font-family: 'Inconsolata';
+    display: inline-block;
+    position: relative;
+    left: 57px;
+    top: 30px;
+    padding: 11px;
+    width: 210px;
+    border-radius: 22px;
+}
+
+#loginIDbox,
+#passwordbox {
+    font-size: 18px;
+    text-align: center;
+    border: none;
+}
+
+#loginNAME,
+#loginPASSWORD {
+    font-size: 24px;
+    color: white;
+}
+
+#loginPASSWORD {
+    margin-top: 25px;
+}
+
+#submitbutton,
+#REGISTERIDbutton {
+    position: relative;
+    top: 35px;
+    left: 32px;
+    margin: 20px;
+    padding: 12px;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 17px;
+}
+
+#REGISTERIDbutton {
+    left: 155px;
+    top: -48px;
+}
+
+#submitbutton:hover,
+#REGISTERIDbutton:hover {
+    background-color: rgb(189, 66, 66);
+    transition: 0.25s;
+}
